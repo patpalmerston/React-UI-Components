@@ -1,34 +1,72 @@
 /* All styles for your header Components live here */
+
 html {
-  max-width: 1000px;
-  width: 100%;
+max-width: 800px;
+width: 100%;
+margin: 0 auto;
 }
 
 body {
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
+ 
 }
 
 
 .header-container {
+  border: 1px solid red;
+  width: 65%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .logo {
-   width: 5%;
+  border: 1px solid green;
+   width: 10%;
 }
 
 .header-title {
-  border: 1px solid red;
+  border: 1px solid blue;
   font-size: .5rem;
-  width: 30%;
+  width: 78%;
+ 
   
 }
 
 .header-content {
-  width:30%;
+  border: 1px solid blue;
+  width:78%;
+  position: relative;
+  left: 11%;
+}
+
+
+/* // card stuff */
+
+.cards-container {
+  border: 1px solid yellow;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+
+
+
+.banner {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
