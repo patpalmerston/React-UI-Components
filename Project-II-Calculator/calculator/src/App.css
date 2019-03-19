@@ -1,5 +1,10 @@
-body {
-  width: 500px;
-  max-width: 100%;
+
+
+.calculator {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
+  border: 1px solid silver;
+  
 }

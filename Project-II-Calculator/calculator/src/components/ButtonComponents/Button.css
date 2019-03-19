@@ -1,0 +1,41 @@
+
+.numberButtonStyles {
+  width: 25%;
+  height: 4rem;
+  border: 1px solid silver;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.red {
+  background: darkred;
+  color: white;
+}
+
+.fontWhite {
+  font-color: white;
+}
+
+.actionButtonStyles {
+  width: 75%;
+  height: 4rem;
+  border: 1px solid silver;
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+.white {
+  background: white;
+}
+
+.calculatorButtonStyles {
+  width: 100%;
+  height: 4rem;
+  color: white;
+  font-size: 2rem;
+  text-align: end;
+}
+
+
+/* font awesome stuff */
